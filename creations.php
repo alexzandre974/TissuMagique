@@ -40,7 +40,7 @@
                     <a class="navbar-brand" href="creations.php">Créations</a>
                     <a class="navbar-brand" href="APropos.html">A propos</a>
                     <a class="navbar-brand" href="contact.php">Contact</a>
-                    <a class="navbar-brand" href="">Connexion</a>
+                    <a class="navbar-brand" href="connexion.html">Connexion</a>
                 </div>
             </nav>
         </div>
@@ -61,7 +61,7 @@
                                     <p class="card-text">Détails: <?php echo htmlspecialchars($article['Description']); ?></p>
                                     <form action="#" method="GET">
                                         <input id="prodId" name="prodId" type="hidden" value=<?php echo htmlspecialchars($article['Reference']); ?>/>
-                                    <input type="submit" class="btn btn-primary">Voir
+                                    <input type="submit" class="btn btn-primary" value="Voir">
                                     </form>
                                 </div>
                             </div>
@@ -71,5 +71,8 @@
             </div>
         </main>
     </div>
+    <footer class="footer">
+            <p>&copy; Tissu Magique 2024</p>
+        </footer>
 </body>
 </html>

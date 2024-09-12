@@ -9,7 +9,7 @@ ini_set('display_errors', 1);
     $user = "u221411775_user";
     $pwd = "/F2xK95wf7@c";
 
-$conn = new mysqli($servername, $username_db, $password_db, $dbname);
+$conn = new mysqli($host, $BD, $user, $pwd);
 
 // Vérifier la connexion
 if ($conn->connect_error) {

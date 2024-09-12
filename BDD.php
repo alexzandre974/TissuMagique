@@ -11,7 +11,7 @@
             include "connexion.php";
 
             try{
-                $ajout = new PDO("mysql:host=$host;dbname=$BD", $user, $pwd);
+                $ajout = new PDO("mysql:host=$host;dbname=$BD", $user, "password=$pwd");
                 $ajout->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                 $requete = $ajout->prepare(

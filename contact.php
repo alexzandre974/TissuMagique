@@ -26,13 +26,13 @@
                     <a class="navbar-brand" href="creations.php">
                         Créations
                     </a>
-                    <a class="navbar-brand" href="">
+                    <a class="navbar-brand" href="APropos.html">
                         A propos
                     </a>
                      <a class="navbar-brand" href="contact.php">
                         Contact
                     </a>
-                    <a class="navbar-brand" href="">
+                    <a class="navbar-brand" href="connexion.html">
                         Connexion
                     </a>
                 </div>
